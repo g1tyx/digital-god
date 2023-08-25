@@ -2,13 +2,16 @@ import '../../node_modules/i18next/i18next.min.js'
 
 
 
+const responseChs = await fetch('./javascript/jsfiles/chs.json');
 const responseEn = await fetch('./javascript/jsfiles/en.json');
 const responseRu = await fetch('./javascript/jsfiles/ru.json');
 const translationsEnData = await responseEn.json();
 const translationsRuData = await responseRu.json();
+const translationsChsData = await responseChs.json();
 await i18next.init({
     lng: currentLanguage,
     resources: {
+        chs: { translation: translationsChsData },
         en: { translation: translationsEnData },
         ru: { translation: translationsRuData }
     }
@@ -378,7 +381,8 @@ function formatPercent(percent) {
 
 document.getElementById('changingLanguage').addEventListener('click', () => {
 
-    currentLanguage = i18next.language === 'ru' ? 'en' : 'ru';
+    // currentLanguage = i18next.language === 'ru' ? 'en' : 'ru';
+    currentLanguage = i18next.language === 'chs' ? 'en' : 'chs';
     // console.log(currentLanguage)
     i18next.changeLanguage(currentLanguage, () => {
         // Обновление текста после смены языка

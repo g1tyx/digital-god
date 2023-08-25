@@ -1,0 +1,252 @@
+{
+    "moneyCount": "你有 {{money}} α-币",
+    "moneyPerSec": "你获得 {{gainPerSec}} α-币 每秒",
+
+    "crystalCount": "你有 {{crystals}} 水晶",
+    "prestigeDisabled": "收集 1е15 α-币",
+    "prestigeEnabled": "重置所有并获得 {{crystalsTemp}} 水晶",
+
+    "maxUpgradesTrue": "购买全部",
+    "maxUpgradesFalse": "购买1个",
+
+    "newsButton": "新",
+    "settingsButton": "设置",
+    "clickerButton": "点击器",
+    "achievementsButton": "成就",
+    "informationSubButton": "信息",
+    "statisticsSubButton": "统计",
+    "shopButton": "超级商店",
+    "multipliersSubButton": "乘数",
+    "aboutButton": "关于游戏",
+    "saveButton": "保存",
+    "graphicButton": "图形",
+    "otherButton": "其它",
+    "moneyButton": "币",
+    "overdriveButton": "过载",
+
+    "settingsTitle": "设置",
+
+    "saveTitle": "保存设置",
+    "graphicTitle": "图形设置",
+    "otherTitle": "其它设置",
+
+    "saveGame": "保存游戏",
+    "loadGame": "加载游戏",
+    "autosaveGame": "自动保存: {{autoSave}}",
+    "importGame": "导入存档",
+    "importGameFromAFile": "从文件导入存档",
+    "exportGame": "导出存档",
+    "changeLanguage": "更改语言",
+    "changelog": "更新日志",
+    "hardReset": "硬重置",
+    "gameLore": "我的日记",
+    "howToPlay": "游戏玩法?",
+    "hotkeys": "快捷键: M - 购买最大",
+    "autoSave": "自动保存中: {{autoSaverTimer}}秒",
+
+    "resetConfirm": "你真的想重置游戏吗？",
+    "oopsNaNed": "糟糕，您已经出现 NaNed 并且您的存档已损坏，您想要进行硬重置吗？",
+    "yes": "是",
+    "no": "否",
+
+    "umultiplierText": "<ut>U-乘数 ({{umultipliercount}})</ut> <br> 重置 升级 以给予一个 x2 乘数 到 硬币增益 <br> 当前: x{{umultiplier}} <br> 需要: {{umultiplierCost}} 小额投资",
+    "upowerText": "<ut>U-力量 ({{upowercount}})</ut> <br>重置 升级 和 U-乘数 以给予一个 +0.045 的指数到 硬币增益 <br> 当前: ^{{upower}} <br> 需要: {{upowerCost}} 小额投资 和 4 U-乘数",
+
+    "maxBuy": "购买最大",
+
+    "firstBuyable": "<ut>小额投资 ({{firstBuyableAmount}})</ut> <br> 提高 α-币 每秒 <br> 当前: +{{firstBuyableEffect}} <br> 成本: {{firstBuyablePrice}} α-币",
+    "secondBuyable": "<ut>生产力 ({{secondBuyableAmount}})</ut> <br> 提高 小额投资 效果 <br> 当前: +{{secondBuyableEffect}}% <br> 成本: {{secondBuyablePrice}} α-币",
+    "thirdBuyable": "<ut> 倍增器 ({{thirdBuyableAmount}})</ut> <br> 乘以 α-币 每次点击 2 <br> 当前: x{{thirdBuyableEffect}} <br> 成本: {{thirdBuyablePrice}} α-币",
+    "fourthBuyable": "<ut> 乘数 ({{fourthBuyableAmount}})</ut> <br> 乘以 α-币 每秒 1.05 <br> 当前: x{{fourthBuyableEffect}} <br> 成本: {{fourthBuyablePrice}} α-币",
+    "fifthBuyable": "<ut> 阿尔法之力 ({{fifthBuyableAmount}})</ut> <br> 提高力量 对于 α-币 每次点击 <br> 当前: ^{{fifthBuyableEffect}} <br> 成本: {{fifthBuyablePrice}} α-币",
+
+    "firstSingle": "<ut> 名利双收 </ut> <br> 根据硬币总数增加每秒的硬币数 <br> 当前: x{{firstSingleEffect}} <br>  {{firstSinglePrice}}",
+    "secondSingle": "<ut> 点石成金光标 </ut> <br> 根据总点击量增加每次点击的硬币 <br> 当前: x{{secondSingleEffect}} <br> {{secondSinglePrice}}",
+    "thirdSingle": "<ut> 倍增器+ </ut> <br> 硬币增益加倍 2 <br> 当前: x{{thirdSingleEffect}} <br> {{thirdSinglePrice}}",
+    "fourthSingle": "<ut> 超级生产力 </ut> <br> 基于小额投资提高生产力效果 <br> 当前: x{{fourthSingleEffect}} <br> {{fourthSinglePrice}}",
+    "fifthSingle": "<ut> 超级乘数 </ut> <br> 乘数数量增加其效果<br> 当前: x{{fifthSingleEffect}} <br> {{fifthSinglePrice}}",
+    "sixthSingle": "<ut> 负阿尔法粒子 </ut> <br> 根据每次点击的硬币增加每秒的硬币 <br> 当前: x{{sixthSingleEffect}} <br> {{sixthSinglePrice}}",
+    "seventhSingle": "<ut> 返现 </ut> <br> 所有购买都会增加硬币收益<br> {{isCapped}}: x{{seventhSingleEffect}} <br>  {{seventhSinglePrice}}",
+    "eighthSingle": "<ut> 功绩奖励 </ut> <br> 已解锁的成就提升 每次点击的 硬币 <br> 当前: x{{eighthSingleEffect}} <br> {{eighthSinglePrice}}",
+    "ninthSingle": "<ut> 活动 1.0 </ut> <br> 根据游戏时间增加 名利双收 的力量 <br> {{isCapped}}: ^{{ninthSingleEffect}} <br> {{ninthSinglePrice}}",
+    "tenthSingle": "<ut> 祝福 </ut> <br> 提高 成就乘数 的力量 <br> 当前: ^{{tenthSingleEffect}}<br>  {{tenthSinglePrice}}",
+
+    "firstSinglePriceText": "成本: 100000 α-币",
+    "secondSinglePriceText": "成本: 1.5e6 α-币",
+    "thirdSinglePriceText": "成本: 3.5e6 α-币",
+    "fourthSinglePriceText": "成本: 3e7 α-币",
+    "fifthSinglePriceText": "成本: 5e8 α-币",
+    "sixthSinglePriceText": "成本: 3e9 α-币",
+    "seventhSinglePriceText": "成本: 1.1e10 α-币",
+    "eighthSinglePriceText": "成本: 1.5e11 α-币",
+    "ninthSinglePriceText": "成本: 1.2e12 α-币",
+    "tenthSinglePriceText": "成本: 1e13 α-币",
+
+    "notCapped": "当前",
+    "capped": "上限了",
+
+    "overdriveType1Name": "过载类型 1",
+    "overdriveType1Progress": "{{overdrivePercent}}% <br> 效果: x{{overdriveEffect}} 到 硬币 增益 <br> 成本: {{overdrivePrice}} α-币",
+
+    "achievementsTitle": "成就",
+
+    "achievementsDesc": "解锁成就并获得硬币奖励！ 其中一些也有自己的奖励。 对于填充一行，您将获得显着的提升",
+    "achievementsBonus": "成就提供了: x{{achievementBonus}} 乘数 到 α-硬币",
+    "achRow1": {
+        "name": ["\"Without walkers\"", "\"First thousand\"", "\"I'm calling a police! No, I do!\"", "\"Breakin da wall\"", "\"Master clicker\"", "\"Hellish productivity\"", "\"Time to sleep!\"", "\"Another breakin da wall\"", "\"Million multiplier\"", "\"Final stretch?\""]
+    },
+    "achievement11Desc": "<ut> 没有助行器 (11) </ut> <br> <br> 开始生成 α-币!",
+    "achievement12Desc": "<ut> 第一个1000 (12) </ut> <br> <br> 收集 1000 α-币.",
+    "achievement13Desc": "<ut> 我在报警！不，我知道！ (13) </ut> <br> <br> 使每次点击产生的 α-硬币 比每秒产生的 α-硬币 多 x2.01.",
+    "achievement14Desc": "<ut> 打破墙壁! (14) </ut> <br> <br> 进行 U-乘数.",
+    "achievement15Desc": "<ut> 大师点击器 (15) </ut> <br> <br> 进行 1000 次点击. <br> <br> <it> 奖励: 每次点击都会使 CPS 增加 +0.01%。 还解锁了 \"最大全部\" 按钮.</it>",
+    "achievement16Desc": "<ut> 地狱级生产力 (16) </ut> <br> <br> 产生生产力效果 6666% <br> <br> <it> 奖励: 提高生产力的基础效果 1.1.</it>",
+    "achievement17Desc": "<ut> 睡觉时间! (17) </ut> <br> <br> 在游戏内渡过 1000 秒. <br> <br> <it> 奖励: 每分钟提高 返现 效果 х(1.05*小时).</it>",
+    "achievement18Desc": "<ut> 又一次打破墙壁 (18) </ut> <br> <br> 进行 U-力量.",
+    "achievement19Desc": "<ut> 百万乘数 (19) </ut> <br> <br> 使用倍增器达到 x1e6 乘数. <br> <br> <it> 奖励: 使 点石成金光标 公式变得更好.</it>",
+    "achievement20Desc": "<ut> 最终拉伸? (20) </ut> <br> <br> 购买所有升级. <br> <br> <it> 奖励: 解锁 声望.</it>",
+
+    "stastisticsTitle": "统计",
+
+    "totalMoney": "你总计收集了 {{totalCoins}}  α-硬币.",
+    "totalSuperMoney": "你总计收集了 {{totalSuperCoins}} 超级硬币.",
+    "totalCrystals": "你总计收集了 {{totalCrystals}} 水晶.",
+    "gameTime": "你玩了 {{gameDaysText}} 天, {{gameHoursText}} 小时, {{gameMinutesText}} 分钟 {{gameSecondsText}} 秒.",
+    "totalClicks": "你进行了 {{clickCount}} 次点击!",
+
+    "multipliersTitle": "乘数细分",
+
+    "totalMultiplier": "总计乘数: ",
+
+    "clickTitle": "硬币每次点击",
+    "secondTitle": "硬币每秒",
+    "gainTitle": "增益乘数",
+
+    "postE13CoinSoftcap": "Post-e13 软上限: ",
+
+    "doublerName": "倍增器: ",
+    "midasCursorName": "点石成金光标: ",
+    "rewardName": "功绩奖励: ",
+    "goldenGloveName": "金手套: ",
+    "gainName": "增益: ",
+    "alphaPowerName": "阿尔法之力: ",
+
+    "smallInvestmentName": "小额投资: ",
+    "multiplierName": "乘数: ",
+    "richFameName": "名利双收: ",
+    "negativeAlphaName": "负阿尔法粒子: ",
+    "achievement15Name": "成就 15: ",
+    "goldenClockName": "金时钟: ",
+
+    "doublerPlusName": "倍增器+: ",
+    "cashBack": "返现: ",
+    "goldenKeyName": "金钥匙: ",
+    "overdrive": "过载: ",
+    "achievementsName": "成就: ",
+    "umultiplierName": "U-乘数: ",
+    "upowerName": "U-力量: ",
+
+    "aboutGameTitle": "关于游戏",
+
+    "aboutGame": "<ut> Digital God 0.9.2</ut> <br> 开发者是 Humfrey. <br> <br> Digital God 受到这些精彩游戏的启发: Antimatter Dimensions（反物质维度）, Synergism（协同放置）, Prestige Tree（声望树）. <br> <br>  感谢 Орехус 的俄语翻译 <br> 感谢大家的参与.<br>",
+    "galaxyClickText": "在 galaxy.click 给本游戏打分",
+    "discordText": "加入 discord 服务器",
+    "telegramChatText": "加入 telegram 聊天 (俄语)",
+    "telegramChannelText": "加入 telegram 频道 (俄语)",
+    "gmailText": "发送 e-mail",
+
+    "shopTitle": "超级商店",
+    "shopDesc": "欢迎来到超级商店！ 使用无价的超级硬币购买专属物品，进一步提高您的进度！ 您还可以重新指定可购买的物品并拿回您的超级硬币.",
+    "superCoinCount": "你有 {{supercoins}} 超级硬币",
+    "shopTitle2": "升级",
+    "respecShop": "重洗",
+
+    "firstShopBuyable": "<ut>金手套 ({{fshbAmount}}/100)</ut> <br> 提高每次点击 硬币 <br> 效果: +{{fshbEffect}}% <br> {{fshbPrice}}",
+    "secondShopBuyable": "<ut>金时钟 ({{sshbAmount}}/100)</ut> <br> 提高每秒 硬币 <br> 效果: +{{sshbEffect}}% <br> {{sshbPrice}}",
+    "thirdShopBuyable": "<ut>金钥匙 ({{tshbAmount}}/100)</ut> <br> 提高 硬币 增益 <br> 效果: +{{tshbEffect}}% <br> {{tshbPrice}}",
+    "fourthShopBuyable": "<ut>幸运四叶草 ({{foshbAmount}}/100)</ut> <br> 提高 超级硬币 几率 <br> 效果: +{{foshbEffect}}% <br> {{foshbPrice}}",
+
+    "firstShopSingle": "<ut>损坏的车速表</ut> <br> 解锁过载 <br> {{fshsPrice}}",
+
+    "firstShopBuyablePriceText": "成本: {{fshbPrice}} 超级硬币",
+    "secondShopBuyablePriceText": "成本: {{sshbPrice}} 超级硬币",
+    "thirdShopBuyablePriceText": "成本: {{tshbPrice}} 超级硬币",
+    "fourthShopBuyablePriceText": "成本: {{foshbPrice}} 超级硬币",
+
+    "firstShopSinglePriceText": "成本: {{fshsPrice}} 超级硬币",
+
+    "offlineGainTitle": "欢迎回来!",
+    "offlineGain": "你已经离开了 {{timeDifference}} 秒. <br> 在你离开时，你获得了: <br> +{{moneyTemp}} α-币. <br> +{{superCoinsTemp}} 超级硬币.",
+
+    "saveGameNotification": "游戏已保存!",
+    "loadGameNotification": "游戏已加载!",
+    "exportGameNotification": "游戏已导出!",
+    "importGameNotification": "游戏已导入!",
+    "resetGameNotification": "游戏已重置!",
+    "achievementGameNotification": "你取得了一个成就: ",
+    "loreGameNotification": "您已经解锁了日记本的新章节!",
+
+    "startDescription": "选择上面的版本号来检查它的更新日志.",
+    "changeLogTitleText": "更新日志",
+
+    "startLoreDescription": "选择章节来阅读它的故事",
+    "storyTitleText": "我的日记",
+
+    "startHelpDescription": "选择要阅读的页面",
+    "helpTitleText": "玩法?",
+
+    "codeInput": "输入代码",
+
+    "codeIsTrue": "代码 \"{{code}}\" 正确! <br> 你得到了 +{{codeReward}}",
+    "codeIsFalse": "代码 \"{{code}}\" 是错误的!",
+    "codeIsUsed": "代码 \"{{code}}\" 已经被使用了!",
+
+    "getDailyReward": "获得每日奖励",
+
+    "dailyIsTrue": "你得到了 +{{superCoinsTemp2}} 超级硬币! <br> 请在 24 小时后再回来.",
+    "dailyIsFalse": "距离奖励可用还有 {{dailyHours}}:{{dailyMinutes}}:{{dailySeconds}}",
+
+    "code1Reward": "69 超级硬币",
+
+    "version00": "<b>18.12.2022 | My 1st Clicker 0.0. Null Update (Codename: NULL):</b><br>- NEW MECHANIC! You need to clicking on the button for gaining α-coins.<br>- NEW 2 UPGRADES! First increases α-coin per click by 1, second increases bonus of first one by 10%.<br>- Some bugs like you sometimes cant get bonus from 2nd upgrade. Idk why.<br><br>[Dev comment]<br>This is a first game made by me from scratch, and i spent for it a some time. Well it's actually my second game, but that first made it's just mod.Idk if i want to continue it.",
+    "version01": "<b>19.12.2022 | My 1st clicker 0.1. Graphic Update (Codename: BUTTON):</b><br>- Game has beautiful α-coin icon instead of depressed button.<br>- Upgrades buttons became a little better.<br>- A little decreasing of cost formula for upgrades.<br><br>[Dev comment]<br>Well i continued it and i did something good even with zero html and css skills, it's really impressive and i really should learn them both later.<br>There a really much things which i should do, and which i dont know how to do. Also i tried to add icons for buttons but when you buying upgrades it disappears, i should to link it somehow...",
+    "version02": "<b>20.12.2022 | My 1st clicker 0.2. SAVE Update (Codename: Save):</b><br>- You can finally save n load the game by bottom buttons (but text for upgrades doesn't refresh).<br>- Changelog button added.<br>- Now CSS lines have moved to a separate .css file.<br>- BETA button changes. <br><br>[Dev comment]<br>Actually i did it in one day but now i have 20th December. Most funny thing that i spent for saving not much time. Next goal is new interesting upgrades.",
+    "version03": "<b>28.01.2023 | My 1st clicker 0.3. More Graphic Update (Codename: CHEST):</b><br>- NEW UPGRADE! Third upgrade can boost yourα-coin gain by 5%.<br>- MAJOR DESIGN UPDATE! Game has some bg and font.<br>- AUTOSAVING! You can enable autosave, and it will save every 10 sec (When you load it does disable it).<br>- Recolored buttons (give me ideas about bottom one please idk what to do).<br>- Changedα-coin icon, it suits bg better.<br>- Changed cost formula to good one (logarithm goes brrr).<br>- Improved upgrade texts.<br>- Save n load contains prices.<br><br>[Dev comment]<br>Finally comeback for it and did not bad update tho. Added bg and some stuff. Next goal is new special upgrades.",
+    "version04": "<b>29.01.2023 | My1stClicker 0.4. Simple Update (Codename: SIMPLE):</b><br>- NEW TYPE OF UPGRADES - SINGLE. You can buy them only once. Right?<br>- 3 NEW UPGRADES! First increases gain based on total α-coins, second doublesα-coin gain and third increases bonus of 2nd upgrade based on amount of 1st.<br>- Text in game has own language and doesn't have two languages like rus / eng.<br>- Fixed autosave jumping button.<br>- Buffed cost formula for upgrades.<br>- Game autoloads progress after page refresh.<br>- Now there is two changelogs: russian and english. <br>- NEW BUTTON - HARD RESET. It can blow up your saved files and reset everything in the game- After load text stays as before save.<br>- Upgrade's buttons has red color when you cant afford it and sligtly brightness when you hover on it and you can buy it. Also brightness affects on bottom buttons.<br><br>[Dev comment]<br>This is one more great upgrade for design (at least for me), next goals are tabs, honestly idk how to do them. And probably one more QoL upgrade :eyes:",
+    "version05": "<b>08.02.2023 | My1stClicker 0.5. Revolution Update (Codename: ANTIMATTER):</b><br>Design changes:<br>- FULL REDESIGN OF GAME! Simple black bg, buttons with disabled/enabled/hovered functions, new coin icon.<br>- INTERFACE CHANGE! You can select 4 tabs: settings, clicker, ?????? and info.<br>- Save, Load, Changelog, Hard reset, Autosave buttons replaced to Settings tab.<br>- Improved button text. Added titles.<br>- Improved coin text. \"You have earned\" text replaced separately.<br>- Added information text with version, main goal, and thanks.<br>- Coins became α-coins.<br>- 1st, 2nd, 4th, 6th upgrades text updates every purchasing.<br>- Better russian translate for changelogru.<br>Gameplay changes:<br>- Added official goal - 1,000,000,000 α-coins. If you achieve this goal, there appears special tab.<br>- Fully changed cost formula for 1-3 upgrades. Now there is no inflation. I hope.<br>- Buffed 3rd upgrade effect from +1.05 to x1.05 (multiplies itself).<br>- Buffed 4th upgrade effect (log(x)/2 -> log(x)).<br>- Buffed 6th upgrade effect (log(x) -> log(x)^2).<br>- Reduced 6th upgrade cost (15,000,000 -> 5,000,000).<br><br>[Dev comment]<br>That's crazy, i've spent for it a week. Well I spent some hours everyday and finally 0.5 came out. Enjoy the first Revolution Update. Tbh i wanted to do this style earlier, but for some reason i didnt do it. Next update will contain that unknown thing.",
+    "version051": "<b>15.02.2023 | My1stClicker 0.5.1:</b><br>Design changes:<br>- Finally top and upgrades buttons were centered.<br>- Now buying Productivity updates Small Investment (but does it weirdly sometimes doesn't but its formula issue).<br>- Autosaving turned on after starting new game.<br>- Great optimization of code for me. (Actually this update about it).<br>- Notice: update unstable because i have almost 1 AM and can't test it rn. You can do it yourself and send me some issues in discord Humf#9778.<br><br>[Dev comment]<br>Sorry for the little update, I'm just learning a little HTML, CSS and Vue.js (rn at CSS), so that's not procrastination! I wanna make fine interface especially for the next update. Ok you can check through console new 0.6 thing will be Prestige ofc. But what'll it make? Stay tuned!",
+    "version06": "<b>09.03.2023 | Digital God 0.6. Prestige Update (Codename: PRESTIGE):</b><br>Design changes:<br>- Changed game name to Digital God 0.6. Reason: Game will be a clicker only at start, then after some upgrade money gain become automated and there is no will be any clicking things. I had idea make diamond gain clickable but that'll be weird.<br>- Added page icon. Lightning. God. Zeus.<br>- Buttons and text got smaller.<br>- Settings and Statistics has title.<br>- Improved settings buttons.<br>- Removed \"?????\" button, now it'll appear at 1e9 coins.<br>- Improved Stats text.<br>- Main upgrades doesn't have shades anymore.<br>- Saving and Loading now using stringify method.<br>- Tab buttons no longer has \"active mode\", but they changing color while hover.<br>- Some little improvements.<br>Feature changes:<br>- IMPORT AND EXPORT! You can make base64-encoded text and it'll contain all your values. You can create your savebank or share with your friends!<br>- CHANGE LANGUAGE! You can change language without refreshing page.<br>- Removed confirmation for changing message while refreshing page.<br>- Now Hard Reset doesn't refreshing page.<br>- Values has scientific notation after 1,000,000 number.<br>- Fixed autosaving was unchangeable.<br>Gameplay changes:<br>- PRESTIGE! Reset whole progress to get diamonds, which boosts your production!<br>- DIAMONDS! Spend them for new prestige upgrades which can boost your progress even further!<br>- NEW PRESTIGE UPGRADES! They have 4 layers: Buyable, Automatic, Single and last of them is Unlockable upgrades which unlocking next layers of prestige upgrades, they're always last in them row.<br>- AUTOMATION! After buying 5-7 Prestige Upgrades you will be able to autobuy upgrades or gain coins per second.<br>- Added softcaps for coin gain at e20 and e35 and for diamonds gain at 4000 and 100000.<br>- Slightly better formula for Superproductivity.<br>- Buffed cost formula for 1-3 Main Upgrades.<br><br>[Dev comment]<br>Finally! After 2 weeks I finish this update. It's biggest update in the history of game. I have seen so many bugs and errors, and so much or a little less i solved. The hardest thing for me was to figure out how to remove blue (purchased) color for 4-6 upgrades. I spent two days on this, and it's the reason why i abandoned the game for 2 weeks. The rest bugs were \"Problem on a problem\" when after solving one, another appeared, btw it was the reason to fix that \"hardest\" bug. I wanted to make changing language button, and it turned out to suffer and fix that bug. Well it wasn't hard. I'm glad i finished this update and didn't abandon it. I'll be really glad if you play it at least for a little and those works, that time i spent for making update (3-7 hours per day) will not pass in vain. What about name of the game? Let me explain with small lore: You, a poor creature, aspire to become a God in virtual reality, but you need incredible power of God, which lies in the some coins that you collect during the game and then spend to get even more. Each currency makes you stronger and more powerful. However will everything will be simple? Will Fortune help this time?",
+    "version07": "<b>15.05.2023 | Digital God 0.7 | \"You really want it\" Update (Codename: QOL):</b><br>Design changes:<br>- Amount of coins, diamonds, and prestige reset button now displayed in header.<br>- Slightly changed buttons. Upgrade buttons size and settings buttons location.<br>- Added subtabs in Info page.<br>- Added notifications when saving, loading, importing, exporting, hard reseting.<br>- Fixed display of some upgrades effects.<br>- New stats: Time spent in the game/prestige, fastest prestige.<br>Feature changes:<br>- \"BUY ALL\" BUTTON! Now you can buy all stuff just by clicking that one button.<br>- Added possibility to make Prestige Reset by pressing \"P\" and Max Buy by pressing \"M\".<br>- Export always saves text file with save in your device (it's still copies into your clipboard).<br>Gameplay changes:<br>- Many Prestige Upgrades has been nerfed. But some of them are got a slightly buff.<br>- More roughly diamonds gain softcap.<br><br>[Dev comment]<br>Yeah, so small update after 2 months, cuz i started to make it yesterday, i just didn't want to do it. Well i actually did, but some troubles appeared and i couldn't make something. But 0.8 will change EVERYTHING, because it's Coins Update! New upgrades, mechanics changing and more! 0.9 also takes something like Prestige Update 2! Well, when i'll start to do it? Idk.",
+    "version071": "<b>17.05.2023 | Digital God 0.7.1:</b><br>Design changes:<br>- Added \"α-\" to all \"coins\" strings without it.<br>- Fixed Prestige reset button text<br>Feature changes:<br>- Added statistics with latest 10 Prestige resets<br>- Added possibility to import from the file.<br>- Changelog appears in game itself not in separate file.<br>- Fixed bug which sends you annoying message about completing the game.<br>Gameplay changes:<br>- Fixed bug where you could turn on automation and it'll freeze the game.<br>- Increased diamonds gain softcap.<br>- Decreased Prestige upgrades effects.<br><br>[Dev Comment]<br>I'm really tired, that latest 10 Prestige resets feature took a lot of time, cuz i couldn't to export their strings. Next update - 0.8.",
+    "version08": "<b>07.06.2023 | Digital God 0.8 | Coin Update:</b><br>Design changes:<br>- CHANGING TEXT THROUGH JSON FILES. Now it became easier to make any languages or adding to already existed. If someone interested on adding himself language dm me. <br>- Making numbers to scientific notation became easier.<br>- Upgrade buttons became smaller.<br>- Text became smaller.<br>- Coins per click appears when you clicking on the coin.<br>- Statistics tab looks better and \"About Game\" too.<br>- New tab - Achievements.<br>- Remade save, load, export, import, reset functions.<br>- Buying upgrades has same function but different arguments.<br>Feature changes:<br>- ABSOLUTELY REMAKE COINS!<br>- NEW UPGRADES - 15! 5 - Buybles and 10 singles. Some of them stay, some became little changed.<br>- COIN GAIN DIVIDED TO COINS PER SECOND AND COINS PER CLICK.<br>- OFFLINE GAIN! Gather coins while offline! (May be still unstable)<br>- U-Multiplier and U-Power! Reset all upgrades for getting better next time!<br>- ACHIEVEMENTS! Unlock achievements and get more bonus for coin gain. Some of them has their rewards.<br>Gameplay changes:<br>- Prestige and Automation has been removed. They're come in new colors in 0.9<br>- Now prestige goal is 1e15 coins, actually that's a main goal of the game.<br><br>[Dev comment]<br>That's crazy. I spent a whole 5 days (even more), 8+ hours each day on this. The real nightmare began with Achievements. I struggled for a long time to figure out how to make tooltips for them, and eventually someone suggested using Popper.js, which worked successfully. Then came the another horror - importing - I couldn't figure out how to save an array of achievement completions ([true, false, false, ...]), so I simply combined both base64 strings and split them during import. And then came the true worst nightmare - Offline Progress. I must have spent around 15 hours in total on it, constantly finding loopholes in this fragile paper ship that is barely holding together even now. Setting up the language was also a challenge, as even ChatGPT couldn't help. Overall, I'm really glad I overcame these challenges that once seemed impossible to me...",
+    "version0801": "<b>16.06.2023 | Digital God 0.8.0.1:</b><br> Design changes: <br> - Single Upgrade button became sligtly brighter. <br>Gameplay changes: <br>- Fixed bug in Firefox, Opera, Safari when you couldn't get any coin per second. <br>- Default language is English<br>- Hard Reset clears local storage and reloads page. <br>- (PROBABLY) Fixed the bug when you could get extra coins after U-resets.",
+    "version09": "<b>20.08.23 | Digital God 0.9 | It's time to change...</b><br>Design changes:<br>- Changed changelog window.<br>- Added new tabs: News and Super Shop.<br>- Added subtabs for Settings (Saving, Graphic, Other) and for Clicker (Coins and Overdrive).<br>- Information has new subtab: Multiplier Breakdown.<br>- Added hotkey footer in settings tab.<br>- Changed hover color for tab buttons.<br>- Added loading screen.<br>- Statistics has new info about Super-Coins, clicks and spent days.<br>- Updated \"About game\" tab, now it has slightly more information and links for social networks.<br>- Scrollbar is back and got changed.<br>- Added autosave timer.<br>- Changed hard reset confirmation window to own.<br>- Added progress bar for Prestige goal.<br>Feature changes:<br>- ADDED SUPPORT FOR 0.8 AND 0.8.0.1 SAVES. After loading of old saves you never will have any problems with game.<br>- CODES WITH REWARDS. Enter gift code (only once) and get NICE Super-Coins! Never enter \"digitalgod\" or you will get right code message.<br>- DAILY REWARDS! Collect random amount of Super-coins every 24 hours.<br>- MULTIPLIER BREAKDOWN! Check every multiplier of gain.<br>- GAME LORE! In \"My dailybook\" window you (your main character) will write his thought about what is happening and you (player) will learn about game lore.<br>- HOW TO PLAY?! In \"How to play?\" window you can read information about some game mechanics.<br>- Added link for game in galaxy.click (more details in \"about game\")<br>- Added new notification about new diary page.<br>- Added 9 fonts.<br>- \"M\" hotkey became unavailable till 1000 clicks (yeah it worked before)<br>- Added \"Buy all\" button which buying max amount of one upgrade.<br>- Optimized button \"Buy max\".<br>- Code optimization.<br>Gameplay changes:<br>- SUPER SHOP AND SUPER-COINS! Collect exclusive Super-coins with 1/100 chance per click/second and spend them for 4 new exclusive upgrades!<br>- OVERDRIIIVE! Unlock scale which will increase your gain even more for just 100 Super-Coins in the Super Shop.<br>- Decreased cost scaling for Doubler.<br>- Alpha-Particle has been changed to Alpha-Power, which increases power of coins per click.<br>- Cashback boosts whole gain instead of gain per second.<br>- Changed formula for Midas Cursor and now it multiplies coin gain instead of power.<br>- Added hardcap for Cashback (x100) and Activity 1.0 (^2).<br>- U-power exponent decreased to ^1.045.<br>- Added post-e13 softcap for coin gain per click and second.<br>- Fixed achievements not working properly/<br>- Decreased achievements bonus.",
+    "version091": "<b>24.08.2023 | Digital God 0.9.1:</b><br>Interface changes:<br>- Slightly changed location of buttons in hard reset window.<br>- Slightly changed and fixed when text of coins per second gone beyond the line.<br>Feature changes:<br>- Added a window if your coins suddenly got NaNed with a suggestion to reset the game :).<br>- Rewritten code for windows and tab selection.<br>- Fixed a bug when it was possible to \"click\" on a coin in Firefox while holding Enter.<br>- Added limit on clicks per second (10) to prevent autoclicker.<br>- Fixed a bug where it was impossible to buy upgrades even if it was available.",
+    "version092": "<b>25.08.2023 | Digital God 0.9.2:</b><br>Interface changes:<br>- Adaptation for mobile devices. Changed some details in the interface specifically for phones and made it possible to view the changelog or \"How to play\".<br>- Bugfix: coin count text was not centered.<br>- The coin has a circle button shape instead of a square.<br>- Bugfix: Overdrive tab didn't show. <br>Changes in game features:<br>- Added links to E-mail, Telegram chat, Telegram channel and Discord server in \"About the game\", join it!<br>- Bugfix: when text didn't update in \"Buy All\" button.",
+
+    "chapter1Name": "开端",
+    "chapter2Name": "升级",
+    "chapter3Name": "U-乘数",
+    "chapter4Name": "U-力量",
+
+    "chapter1": "<b> 2175年 7月 10日. </b> <br> 我... 是... 谁... 这是什么地方? <br> 你什么都不记得了. <br> 我感觉... 感觉到有东西在看着我. <br> 那个 \"东西\" 可能想要我捡起那些硬币. <br> 它们有 <b>阿尔法</b> 硬币, 除了它们我什么也看不见. <br> 我不喜欢它... <br> 我想我别无选择...",
+    "chapter2": "<b> 2175年 7月 11日. </b> <br> 第二天... <br> 我已经收集了足够的硬币来购买 <b>升级</b>. <br> 他们真的变得很有帮助，因为我开始获得更多的硬币. <br> 无论如何，我希望这不是结束，更多的事情隐藏在他们背后.",
+    "chapter3": "<b> 2175年 7月 14日. </b> <br> 经过几天的升级... <br> 我会解锁一些新东西... <b>U-乘数</b>... 它让我有可能获得更多硬币... <br> 好吧... <br> 我失去了所有金币和升级. <br> 但是... <br> 我变得更强了! <br> 我会以两倍的速度支持它们!",
+    "chapter4": "<b> 2175年 7月 18日. </b> <br> 在一些 U-乘数 之后... <br> 我得到了一个新东西称为 <b>U-力量</b>... <br> 但比 U-乘数 差很多，因为效果很弱... <br> 我几乎没看到它，它还重置了一切，甚至还有 U-乘数. <br> 我这样做只是为了进步.",
+
+    "help1Name": "开端",
+    "help2Name": "标签",
+    "help3Name": "升级",
+    "help4Name": "U-乘数",
+    "help5Name": "U-力量",
+    "help6Name": "超级硬币",
+    "help7Name": "过载",
+
+    "help1": "欢迎来到 数字之神！ 在这里你会发现令人兴奋和有趣的冒险，你作为主角，在未知的世界中醒来，那里除了你之外没有人。 你的目标是揭露这个世界的所有秘密. α-币 会帮助你完成这次冒险，但他们似乎对你持怀疑态度. <br> <br> 您可以通过两种方式获得 α-币：主动和被动.<br><br><ut>主动</ut> 这是一种通过点击屏幕中央的硬币图标来获取硬币的方法。 一开始你只会得到一枚硬币，但你可以通过购买升级来增加增益，你会在底部找到它. <br><br><ut>被动</ut> 获得硬币是另一种方式。 你可以离开游戏，关闭，甚至关闭电脑，你仍然会获得相同数量的金币！ 要开始被动或“每秒”（实际上每 50 毫秒）获取硬币，您需要购买第一个升级“小额投资”. 你有足够的硬币。 稍后您可以购买更多更多，然后通过其他升级来增加增益！ <br><br>除了升级之外，还有另一个硬币乘数。 要了解有关它们的更多信息，请查看其他选项卡。 祝好运并玩得开心点!",
+    "help2": "游戏有不同的选项卡，您可以在其中阅读信息或执行某些操作.<br><br><ut>设置</ut> - 标签, 你可以在哪里改变游戏. <br> 它分为树形子选项卡: <ut>保存</ut>, <ut>图形</ut>, <ut>其它</ut>.  <br> <ut>保存</ut> - 在那里您可以手动保存/加载、更改自动保存设置或导入/导出到文件.<br> <ut>图形</ut> 将允许改变游戏的外观 <br> <ut>其它</ut> 实际上它没有设置，但有不同的信息，例如更新日志.<br><br><ut>点击器</ut> - 主标签. 它有两个子选项卡: <ut>硬币</ut> - 在那里你可以点击硬币并购买升级，和 <ut>过载</ut>, 稍后将解锁（检查。过载 页面） <br><br><ut>成就</ut> - 它确实显示了他们的成就和要求。 他们给予哪些奖励以及基于他们的计数的总奖励.<br><br><ut>信息</ut> - 有三个子选项卡: <ut>统计</ut> - 显示游戏时间、不同资源的数量和一些东西, <ut>乘数</ut> - 显示不同资源增益的提升程度和提升程度. <ut>关于游戏</ut> - information about game, it's devs and thanks.",
+    "help3": "<ut>升级</ut> it's a kind of bonuses which has different effects. They can increase coin gain separately for clicks and per second or increase effect of other upgrade, and it'll give even more coins! There is 15.<br><br>There is two types of upgrades: Buyables and Singles.<br><br><ut>Buyable upgrades</ut> can be bought infinity times. Their effect oftenly depends on amount of purchases. Cost scaling with every purchasing and every upgrades has his own scaling.<br><br><ut>Single upgrades</ut> can be bought only once, and their effect oftenly depends on amount of some resource. Their cost always stays the same and do not increase.",
+    "help4": "<ut>U-multiplier</ut> it's a first prestige mini-layer which resets all coins and upgrades in exchange for doubling the whole coin gain. After every reset you'll get x2 boost for coins (multiplicative (x2 -> x4 -> x8)) and requirement increases by 50 Small Investments.<br> <br>Starting requirement is 100 Small Investments, formula of req scaling is: <it>100+50*m</it>, where m - amount of U-multipliers.",
+    "help5": "<ut>U-power</ut> it's a second prestige mini-layer which resets not only coins and upgrades, but also U-multipliers. After reset you'll increase exponent of coin gain by +0.045 (additive). Reset requirement is not only Small Investments, but also 4 U-multipliers. <br><br>Starting requirement for reset: 250 Small Investments and 4 U-multiplers. Req scaling increases only for Small Investment by formula: <it>250+100*p</it>, where p - amount of U-powers. , U-multiplier req stays the same.",
+    "help6": "<ut>Super-coins</ut> it's currency, which you can spend in Super shop. You can get them clicking on the coin and passively, with chance of 1/100 per click/second. Also <br> they can be obtained offline every 1000 seconds.<br><br>Super shop it's tab in which you can buy exclusive things to speed up progress, all items cost Super-coins. There is two types of items: Respecable (Buyables) and Non-Respecable (Singles). You can respec only Respecable items and refund all spent Super-coins, but it does not work Non-Respecables.<br><br>P.S.: Increasing of chance works like: if your chance increased by +50% then your chance of getting Super-coin will be 1.5/100 or 1/75.",
+    "help7": "<ut>Overdrive</ut> - it's a new way to increase coin gain, you spend coins to get additional coin gain multiplier, it's simple. <br>To unlock it you need to buy Broken Speedometer in Super shop by 100 Super-Coins.<br> It's a scale, that is filling while you have enough coins, maximum - 100%."
+}
