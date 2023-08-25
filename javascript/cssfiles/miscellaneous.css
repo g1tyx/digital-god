@@ -1,0 +1,140 @@
+body {
+    background-color: #060606;
+    /* background-image: linear-gradient(black, gold); */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+#topButtons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#statsSubButtons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#settingSubButtons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#mainSubButtons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.titleTab {
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.tabButton {
+    border-style: solid;
+    border-radius: 5px;
+    width: 105px;
+    height: 25px;
+    border-color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Poly"; 
+    font-size: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.tabButton:hover {
+    background-color: rgb(62, 62, 62)
+}
+
+ut { /*title of upgrade */
+    font-weight:900;
+    pointer-events: none; /* текст сообщения не мешает кликать по кнопке */
+    user-select: none;
+}
+
+it {
+    font-style: italic;
+}
+
+.subButton {
+    width: 95px;
+    height: 20px;
+    font-size: 11px
+}
+
+.tooltip {
+    background: #000000;
+    color: white;
+    /* padding: -4px -8px; */
+    font-size: 13px;
+    border-radius: 4px;
+    border-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    display: none;
+    padding-bottom: 10px;
+    width: 180px;
+    text-align: center;
+    word-wrap: break-word;
+    padding-top: 5px;
+
+}
+
+.tooltip[data-show] {
+    display: block;
+}
+
+.arrow,
+.arrow::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: inherit;
+    background-color: rgb(255, 255, 255);
+    border: solid 0px;
+    content: '';
+}
+
+.arrow {
+    visibility: visible;
+}
+
+.arrow::before {
+    visibility: visible;
+    transform: rotate(45deg);
+    border-bottom-width: 20px;
+    border-right-width: 20px;
+    content: '';
+    right: 0px;
+    top: 4px
+}
+
+.tooltip[data-popper-placement^='top'] > .arrow {
+    bottom: 0px;
+}
+
+.tooltip[data-popper-placement^='bottom'] > .arrow {
+    top: -4px;
+}
+
+.tooltip[data-popper-placement^='left'] > .arrow {
+    right: -4px;
+}
+
+.tooltip[data-popper-placement^='right'] > .arrow {
+    left: -4px;
+}
+
+#newsTab {
+    border-color: red;
+}
+
+#newsTab:hover {
+    background-color: rgba(255, 0, 0, 0.338);
+}

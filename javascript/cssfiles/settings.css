@@ -1,0 +1,357 @@
+
+#settingButtons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.settingButton{
+    border-style: solid;
+    border-radius: 5px;
+    width: 160px;
+    height: 70px;
+    border-color:rgb(65, 68, 207);
+    color: rgb(65, 68, 207);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Poly"; 
+    font-size: 13px;
+    transition: transform 0.1s ease-in-out;
+    transition: filter 0.2s ease-in-out;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.settingButton:active {
+    transform: scale(0.98); 
+}
+.settingButton:hover{
+    background-color: rgb(53, 55, 162);
+    color: #000000;
+}
+#hardRes {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 0, 0);
+    border-color:red;
+}
+#hardRes:hover {
+    background-color: rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+}
+
+
+
+
+.settingsRow {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.loadfile {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 67.2px;
+    border-width: 2.2px;
+    width: 158px;
+}
+
+#file-upload {
+    display: none;
+}
+
+.file-name {
+    display: none;
+}
+
+
+.gameWindow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    border: solid 3px #ffffff;
+    /* padding: 5px; */
+    width: 750px;
+    height: 550px;
+    z-index: 9989;
+    text-align: left;
+    display: none;
+    border-radius: 10px;
+}
+.versionButton {
+    border-style: solid;
+    width: 80px;
+    height: 33px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Poly";
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0px;
+    border-width: 1px;
+    border-block-width: 0px;
+}
+
+.versionButtonVertical {
+    border-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin: 0px;
+}
+
+.versionButton:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.myPopupBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* цвет затемнения */
+    z-index: 9900; /* должен быть меньше, чем у самого окна */
+    display: none; /* начальное состояние - затемнение скрыто */
+}
+
+.titleDivClass {
+    text-align: center;
+    align-items: center;
+}
+
+.windowTitle{
+    z-index: 9999;
+    color:#ffffff;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-block: 10px;
+}
+
+.closeWindow {
+    z-index: 9998;
+    left: 93.5%;
+    bottom: 92.5%;
+    width:35px;
+    height:35px;
+    border: solid 3px #ffffff;
+    background-color: #000000;
+    position: fixed;
+    cursor: pointer;
+    padding: 1px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.closeWindow::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("images/close.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.closeWindow:hover {
+    background-color: rgb(62, 62, 62);
+}
+#versionChooser {
+    z-index: 9998;
+    display: flex;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: #ffffff;
+    width:100%;
+    height:6%;
+    align-items: center;
+    text-align: left;
+}
+
+#chapterChooser {
+    z-index: 9998;
+    display: flex;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: #ffffff;
+    width:100%;
+    height:6%;
+    align-items: center;
+    text-align: left;
+}
+
+
+#versionDescription {
+    margin-left: 5px;
+    margin-top: 0.4em;
+}
+#chapterDescription {
+    margin-left: 5px;
+    margin-top: 0.4em;
+}
+.windowDesc {
+    overflow-y: auto;
+    color:white;
+    margin-top:0;
+    max-height: 460px;
+}
+
+.loreChapter {
+    display: none;
+}
+
+.unlockedChapter {
+    display: block;
+}
+  body {
+    position: relative;
+    min-height: 98.9vh;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  
+#autoTimer { 
+    height: 15px; 
+    width: 155px;
+    font-size: 12px;  
+    background-color: #060606;
+    color: white;
+    border: rgb(170, 170, 170) 1px solid;
+    padding: 0;
+    border-width: 1px 1px 0px 0px;
+    position: fixed;
+  }
+
+#helpPageChooser{
+    display: flex;
+    height: 90.5%;
+    width: 10.7%;
+    flex-direction: column;
+}
+
+#helpTitleDiv {
+    width: 100%;
+}
+
+#helpDiv {
+    width: 89%;
+    /* margin: 0px; */
+    max-height: 500px;
+    margin-right: 0px;
+}
+
+#gameHelpWindow {
+    flex-wrap: wrap;
+}
+
+#line {
+    background-color: white;
+    width: 0.1%;
+}
+
+#horizontalLine {
+    background-color: white;
+    width: 100%;
+    height:1.1px;
+}
+
+#helpDescription {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#helpPageTitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.selectSetting {
+    border-width: 2px;
+}
+
+.selectSetting:hover {
+    background-color: black;
+    color: rgb(53, 55, 162);
+}
+
+.selectSetting:active {
+    transform: scale(1); 
+}
+
+.selectSetting option {
+    background-color: #000000;
+    color: rgb(65, 68, 207);
+}
+
+#inputBorder{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 490px;
+    height: 200px;
+    border-color:rgb(65, 68, 207);
+    color: rgb(65, 68, 207);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Poly"; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-right: 5px;
+    flex-direction: column;
+}
+
+#inputText {
+    color: rgb(65, 68, 207);
+    margin-top: 0;
+}
+
+.centerText {
+    display: none;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 23px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .gameWindow {
+        width: 80%;
+        height: 50%;
+        left: 45%;
+    }
+    .versionButton {
+        width:100%;
+        height:100%
+    }
+    .versionButtonVertical{
+        height: 13%
+    }
+    #helpDiv {
+        max-height: 90%;
+    }
+    #versionDescription {
+        max-height: 90%;
+    }
+    .closeWindow {
+        left: 88.5%;
+    }
+  }
